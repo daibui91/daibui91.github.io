@@ -2,9 +2,6 @@
 			margin: 0;
 			padding: 0;
 		}
-		body{
-			font-family: 
-		}
 		.main {
 		    background-color: #d5dce2;
 		    max-width: 1384px;
@@ -68,7 +65,7 @@
 		}
 		#moi{
 			
-position: absolute;
-			
-top: 611px;
+			position: absolute;
+						
+			top: 611px;
 		}
