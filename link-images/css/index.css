@@ -3,7 +3,7 @@
 			padding: 0;
 		}
 		.main {
-		    background-color: #d5dce2;
+		    background-color: #f5f3f3;
 		    max-width: 1384px;
 		    height: 600px;
 		    margin-left: 67px;
@@ -37,7 +37,7 @@
 			font-family: sans-serif;
 			margin-top: 0px;
 			letter-spacing:  3px;
-			color: white;
+			color: #5d5353;
 			margin-top: 30px;
 		}
 		a{
