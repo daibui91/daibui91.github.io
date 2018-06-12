@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Product</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=vietnamese" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<style type="text/css" media="screen">
+		*{
+			margin:0;
+			padding: 0;	
+			font-family: 'Open Sans', sans-serif;	}
+
+div.tenmonan a {
+    text-decoration: none;
+    color: white;
+}
+
+div.card3 a {
+    text-decoration: none;
+}
+
+div.tieude p {
+    color:  grey;
+    font-style: italic;
+    font-size:  25px;
+    padding-bottom: 60px;
+}
+
+div.danhmuc .tieude h2 {
+    color:  grey;
+    font-size:  40px;
+    padding: 30px;
+}
+		
+
+li.li1 a {
+    text-decoration:  none;
+    font-size:  12px;
+    color: wheat;
+    display:  block;
+    padding:  5px;
+}
+
+ul.meun_main {
+    width: 600px;
+    background:  transparent;
+    border: 1px solid grey;
+    overflow:  hidden;
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    margin-left: -300px;
+}
+
+li.li1 {
+    float:  left;
+    width: 20%;
+    list-style-type:  none;
+   
+}
+
+li.li1:hover a {
+    color: white;
+}
+		.logo{
+			width: 100%;
+			height: 600px;
+			background-image: url('images/DeerDuck-48.jpg');
+			background-size: cover;
+			position: relative;
+			background-attachment: fixed;
+			background-position-y: -250px;
+		}
+		div.anh{
+			max-width: 55%;
+			margin-left: -20%;
+			position: absolute;
+			top: 50%;
+			left:50%;
+		}
+		div.anh h2{
+			text-transform: uppercase;
+			color: white;
+			font-size: 40px;
+			letter-spacing: 10px;
+		}
+		.menu{
+			max-width: 1170px;
+			background: transparent;
+		}
+		.menu ul{
+			width: 40%;
+			height: 60px;
+			position: absolute;
+			top: 10px;
+			right: 0;
+		}
+		 .menu li {
+			width: 25%;
+			float: left;
+			list-style-type: none;
+			text-align: center;
+			line-height: 60px;
+			position: relative;
+		}
+		 .menu a{
+			text-decoration: none;
+			color: white;
+			display: block;
+		}
+		.menu ul li .menu_item{
+			width: 100%;
+			position: absolute;
+			top: 30px;
+			left: 0;
+			 display:  none;
+		}
+		.menu_item li{
+			width: 100%;
+			float: none;
+			color:white;
+		}
+		
+		.menu ul li a:hover {
+			color:grey;			
+		} 
+		.menu ul li:hover .menu_item{
+			display: block;
+		}
+		.gioithieu{
+			max-width: 1170px;
+			overflow: hidden;
+			margin:auto;
+			height: 500px;
+		}
+		img{
+			float: left;
+			width: 50%;
+		}
+		.noidung{
+			float: left;
+			width: 50%;
+			margin-top: 80px;
+		}
+		.noidung h2{
+			font-size: 40px;
+			color: grey;
+			margin-bottom: 30px;
+		}
+		.noidung p{
+			color:#c49a74;
+			text-align: justify;
+		}
+		.monan{
+			width: 100%;
+			background:#23292c;
+			height: 300px;
+			text-align: center;
+			overflow:  hidden;
+			position: relative;
+		}
+
+div.monan {
+    margin-bottom:  30px;
+}
+		 #tieude{padding: 44px;color: white;font-size: 50px;}
+
+		.main p i {
+			display: block;
+		    color: wheat;
+		    margin-bottom: 30px;
+		}
+		.main{
+			text-align: center;
+		}
+		.thucdon{
+			max-width: 1170px;
+			margin:auto;
+		}
+		
+		
+		.card{
+			width: 21%;
+			height: 300px;
+			overflow: hidden;
+			float: left;
+			position: relative;
+			margin: 2%;
+		}
+		div.card img{
+			display: block;
+			width: 100%;
+			height: 100%;
+			transition: 2s;
+			
+		}
+		.mark{
+			width: 100%;
+			height: 100%;
+			background: black;
+			opacity: 0.3;
+			position: absolute;
+			top: 0;
+			left: 0;
+			transition: 1s;
+			
+		}
+		div.tenmonan{
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			position: absolute;
+			top: 20%;
+			left: 0;
+			font-size: 30px;
+			color:white;
+			opacity: 0;
+			transition: 1s;
+		}
+		div.card:hover img{
+			transform:scale(1.3);
+		}
+		.card:hover div.tenmonan {
+			
+			opacity: 1;
+			margin-top:40%;
+		}
+		.card:hover .mark{
+			opacity: 0;
+			transform: scale(0, 0);
+		}
+		.danhmuc{
+			max-width: 1170px;
+			height: 500px;
+			text-align: center;
+			margin:auto;
+		}
+		.clear{
+			clear: both;
+		}
+		.footer{
+			width: 100%;
+			height: 500px;
+			background: #23292c;
+			margin-top:  30px;
+		}
+		div.contact{
+			max-width: 1170px;
+			margin:auto;
+			
+		}
+		div.card4{
+			width: 30%;
+			float: left;
+			padding: 1%;
+			color:white;
+			margin-top: 30px;
+		}
+		div.card4 img{
+			width: 100%;
+			
+		}
+		div.card4 div.footer1{
+			width: 100%;
+		}
+		div.card4 div.icon{
+			width: 100%;
+		}
+		div.card4 div.icon i{
+			font-size: 40px;
+			padding: 15px;
+			color: wheat;
+		}
+		div.card4 h3{
+			margin-bottom: 30px;
+		}
+	</style>
+</head>
+<body>
+	<header class="head">
+		<div class="logo">	
+			<div class="anh">
+				<h2>with delicious food</h2>
+			</div>
+		</div>
+	</header><!-- /header -->
+	<nav>
+		<div class="menu">
+			<ul>
+				<li><a href="" title="">Trang chủ</a></li>
+				<li><a href="" title="">Món ăn</a>
+					<ul class="menu_item">
+						<li><a href="" title="">Khai vị</a></li>
+						<li><a href="" title="">Lẩu canh</a></li>
+						<li><a href="" title="">Món ăn 3 miền</a></li>
+					</ul>
+
+				</li>
+				<li><a href="" title="">Giới thiệu</a></li>
+				<li><a href="" title="">Liên hệ</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section>
+		<div class="monan">
+			<div class="main">
+				<h2 id="tieude">Món khai vị</h2>
+				<p><i>Những món ăn làm nên tên tuổi của nhà hàng chúng tôi, tại sao bạn không thử?</i></p>
+				<div class="menu_item2">
+					<ul class="meun_main">
+						<li class="li1"><a href="" title="">Tất cả</a></li>
+						<li class="li1"><a href="" title="">Khai vị</a></li>
+						<li class="li1"><a href="" title="">Lẩu canh</a></li>
+						<li class="li1"><a href="" title="">Món mặn</a></li>
+						<li class="li1"><a href="" title="">Món ăn ngon</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+			
+	</section>
+	<div class="thucdon">
+		<div class="card">
+			<a href="detail.html" title=""><img src="images/khaivi/1-16.jpg" alt=""></a>
+			<div class="tenmonan">
+				<a href="detail.html" title=""><p>Phở đặc biệt</p></a>
+			</div>
+			<div class="mark">
+				
+			</div>
+		</div>
+	</div>
+	<div class="thucdon">
+		<div class="card">
+			<a href="detail.html" title=""><img src="images/khaivi/10-3.jpg" alt=""></a>
+			<div class="tenmonan">
+				<a href="detail.html" title=""><p>Bánh kiwi</p></a>
+			</div>
+			<div class="mark">
+				
+			</div>
+		</div>
+	</div>
+	<div class="thucdon">
+		<div class="card">
+			<a href="detail.html" title=""><img src="images/khaivi/10.jpg" alt=""></a>
+			<div class="tenmonan">
+				<a href="detail.html" title=""><p>Banh chocolate</p></a>
+			</div>
+			<div class="mark">
+				
+			</div>
+		</div>
+	</div>
+	<div class="thucdon">
+		<div class="card">
+			<a href="detail.html" title=""><img src="images/khaivi/13-1.jpg" alt=""></a>
+			<div class="tenmonan">
+				<a href="detail.html" title=""><p>Tào phớ</p></a>
+			</div>
+			<div class="mark">
+				
+			</div>
+		</div>
+	</div>
+	<div class="thucdon">
+		<div class="card">
+			<a href="detail.html" title=""><img src="images/khaivi/anh1.jpg" alt=""></a>
+			<div class="tenmonan">
+				<a href="detail.html" title=""><p>Bánh thỏ</p></a>
+			</div>
+			<div class="mark">
+				
+			</div>
+		</div>
+	</div>
+	<div class="thucdon">
+		<div class="card">
+			<a href="detail.html" title=""><img src="images/khaivi/anh2.jpg" alt=""></a>
+			<div class="tenmonan">
+				<a href="detail.html" title=""><p>Bò sốt vang</p></a>
+			</div>
+			<div class="mark">
+				
+			</div>
+		</div>
+	</div>
+	<div class="thucdon">
+		<div class="card">
+			<a href="detail.html" title=""><img src="images/khaivi/images.jpg" alt=""></a>
+			<div class="tenmonan">
+				<a href="detail.html" title=""><p>Bánh bông lan</p></a>
+			</div>
+			<div class="mark">
+				
+			</div>
+		</div>
+	</div>
+	<div class="thucdon">
+		<div class="card">
+			<a href="detail.html" title=""><img src="images/3824652chan-gio-gia-cay.jpg" alt=""></a>
+			<div class="tenmonan">
+				<a href="detail.html" title=""><p>Chân giò giả cầy</p></a>
+			</div>
+			<div class="mark">
+				
+			</div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	<footer>
+		<div class="footer">
+			<div class="contact">
+				<div class="card4">
+					<div class="footer1">
+						<a href="" title=""><img src="images/logo.png" alt=""></a>
+						<div class="icon">
+							<i class="fa fa-facebook"></i>
+							<i class="fa fa-twitter-square"></i>
+							<i class="fa fa-google-plus"></i>
+							<i class="fa fa-instagram"></i>
+						</div>
+					</div>
+				</div>
+				<div class="card4">
+					<div class="footer1">
+						<h3>Trang An Restaurant</h3>
+						<p>Nhà hàng Tràng An,được biết tới bởi không gian đẹp kiểu Pháp, trang nhã và ấm cúng, với hơn 200 món ăn ngon ba miền được chọn lọc từ các món ăn dân giã, truyền thống khắp các vùng miền của Việt Nam, được người bếp trưởng tài hoa, “thổi hồn” thành những món ăn "độc đáo riêng của Tràng An", mang lại trải nghiệm thú vị cho mọi cho thực khách ngay cả những thực khách khó tính nhất.</p>
+					</div>
+				</div>
+				<div class="card4">
+					<div class="footer1">
+						<h3>Contact</h3>
+						<div class="icon">
+							<p><i class="fa fa-phone-square"></i>:0988888888</p>
+							<p>	<i class="fa fa-map-marker"></i>:Số14-Ngõ4-Nguyễn Đình Chiểu-Hà Nôi</p>
+							<p><i class="fa fa-fax"></i>:+987654321</p>
+
+
+					</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
