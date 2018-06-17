@@ -1,0 +1,249 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+			
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	
+}
+.container{
+	width: 100%;
+	height: 100%;
+	font-family:  'Open Sans', sans-serif;
+	font-size: 14px;
+	
+	}
+.head{
+	width: 100%;
+	height: 600px;
+	background: #333;
+	position: relative;
+}
+.menu_icon i{
+	color: #e65f77;
+	font-size: 60px;
+	position: absolute;
+	top:50px;
+	left: 90px;
+}
+.head .text{
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+}
+div.text h1{
+	font-size: 60px;
+	font-weight: 500;
+	padding: 10px 55px;
+	border-bottom: 2px solid #e65f77;
+	border-top: 2px solid #e65f77;
+	margin-bottom: 20px;
+}
+div.text .span1{
+	font-size: 20px;
+	display: inline-block;
+	border-right:1px solid white;
+	padding-right: 15px;
+}
+div.text .span2{
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 15px;
+}
+div.text a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 40px;
+	background: #e65f77;
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+div.h11{
+	width: 100%;
+}
+div.span3{
+	width: 100%;
+}
+div.main1{
+	width: 100%;
+	height: 500px;
+	background: #faf5f5;
+}
+.profile1{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+	
+}
+.profile{
+	width: 50%;
+	position: absolute;
+	left: 20%;
+	bottom: 0;
+	
+	
+}
+
+.profile h3{
+	color: #665e5e;
+	font-size: 30px;
+	font-weight: 400;
+	border-bottom: 2px solid #e65f77;
+	display: inline-block;
+	padding-bottom: 15px;
+	
+}
+.profile p{
+	color: grey;
+	font-size: 13px;
+	padding:30px 0 ;
+}
+.profile ul{
+	width: 80%;
+	background-color: white;
+}
+.profile ul li{
+	list-style-type: none;
+	padding: 10px 0;
+	border-bottom: 1px solid #d5cccc;
+}
+ul li:nth-child(5){
+	border-bottom: none;
+}
+.profile ul li b{
+	font-weight: 600;
+	color: grey;
+	color: #665e5e;
+}
+.profile ul li span{
+	font-size: 13px;
+	color: grey;
+}
+div.img1{
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+div.img2{
+	width: 60%;
+	height: 90%;
+	background-color: #333;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.clearfix{
+	clear: both;
+}
+.timeline{
+	width: 80%;
+	position: relative;
+	height: 100%;
+	margin: 0 auto;
+	
+	
+}
+.timeline h3{
+	color: #665e5e;
+	font-size: 30px;
+	padding: 50px 0 10px 0;
+	border-bottom: 2px solid #df7070;
+	display: inline-block;
+	margin-bottom:  40px;
+}
+div.timeline div.line{
+	content:'';
+	width: 2px;
+	background: grey;
+	position: absolute;
+	top:200px;
+	height: 100%;
+	left: 50%;
+	
+}
+div.timeline1 {
+	width: 50%;
+	position:relative;
+	padding: 10px 60px;
+}
+div.right div.chamtron {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: -77px;
+    background-color: red;
+    border: 10px solid #665e5e;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+div.right{
+	left:50%;
+}
+div.left {
+	left: 0;
+}
+div.left div.conten div.chamtron{
+	position: absolute;
+    width: 35px;
+    height: 35px;
+    right:-77px;
+    background-color: red;
+    border: 10px solid #665e5e;
+    top: 105px;
+    border-radius: 50%;
+    z-index: 1;
+    }
+.conten{
+	background:#665e5e ;
+	padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+}
+div.right .muiten{
+	position: absolute;
+	left: -12.5px;
+	width: 25px;
+	height: 25px;
+	background: #665e5e;
+	transform: rotate(45deg);
+	
+}
+div.left .muiten{
+	position: absolute;
+	right: -12.5px;
+	width: 25px;
+	height: 25px;
+	background: #665e5e;
+	transform: rotate(45deg);
+	top:110px;
+	
+}
+
+.conten span{
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+div.conten p.chudo{
+	width: 100%;
+	color: #e65f77;
+	font-size: 18px;
+	padding:10px;
+}
+div.conten p{
+	width: 100%;
+	color: white;
+	padding: 10px;
+}

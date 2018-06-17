@@ -1,0 +1,373 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+			
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	
+}
+.container{
+	width: 100%;
+	font-family:  'Open Sans', sans-serif;
+	font-size: 14px;
+background-color: #353e7c
+	
+}
+.menu1{
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: #353e7c;
+	
+}
+div.menu1 img{
+	width: 100%;
+	height: 300px;
+	
+}
+div.menu2{
+	width: 100%;
+	
+	
+}
+.menu_item{
+	width: 100%;
+}
+.menu_item li{
+	width: 100%;
+	list-style-type: none;
+	padding: 20px;
+	border-bottom: 1px solid grey;
+}
+.menu_item li a{
+	width: 100%;
+	text-decoration: none;
+	color:white;
+	display: block;
+	font-size: 18px;
+}
+.menu_item li:hover a{
+	color: grey;
+}
+.main1{
+	width: 80%;
+	height: 100%;
+	float: left;
+	background-color: white;
+}
+.main1 .slide1 img{
+	width: 100%;
+	height: 600px;
+}
+div.slide1{
+	position: relative;
+}
+div.slide .text{
+	text-align: center;
+	width: 50%;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-left: -15%;
+}
+div.slide .text .text1{
+	color: white;
+	font-size: 45px;
+	transition: 2s ease;
+	
+}
+div.slide .text .text2{
+	color: white;
+	transition: 3s ease;
+}
+div.slide .text a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	background: #c13838;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 10px;
+	margin-top: 50px;
+	transition: 4s ease;
+}
+div.slide .text a:hover{
+	font-size: 20px;
+	color: grey;
+	background-color: pink;
+}
+
+.maincard{
+	max-width: 1000px;
+	margin: auto;
+}
+.main2{
+	width: 100%;
+	
+	overflow: hidden;
+}
+div.tieude h2{
+	color: grey;
+	font-size: 30px;
+	margin-top: 60px;
+	font-weight: 400;
+	display: inline-block;
+	border-bottom: 2px solid #d18080;
+	padding-bottom: 20px;
+}
+.menu_item1{
+	width: 100%;
+	
+	
+}
+ li.li1{
+	width: 25%;
+	list-style-type: none;
+	float: left;
+	border-bottom: 2px solid grey;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	text-align: center;
+	
+}
+ li.li1 a{
+	color: grey;
+	font-size: 18px;
+	text-decoration: none;
+}
+li.li1 a.active1{
+	color: #d18080;
+}
+li.active1{
+	border-bottom:2px solid #d18080;
+}
+li.li1:hover{
+	border-bottom:2px solid #d18080;
+	
+}
+li.li1:hover a{
+	color: #d18080;
+	}
+
+li.li1:visited{
+	border-bottom:2px solid #d18080;
+}
+.main3{
+	width: 100%;
+	
+}
+.main3 div.card:nth-child(2) {
+	padding-left: 15px;
+	margin-top: 70px;
+	
+}
+.main3 div.card:nth-child(4) {
+	margin-top: 30px;
+	padding-left: 15px;
+	}
+.main3 div.card:nth-child(6) {
+	margin-top: 30px;
+	padding-left: 15px;
+}
+.main3 div.card:nth-child(1) {
+	margin-top: 70px;
+	padding-right: 15px;
+	
+}
+.main3 div.card:nth-child(3) {
+	margin-top: 30px;
+	padding-right: 15px;
+}
+.main3 div.card:nth-child(5) {
+	margin-top: 30px;
+	padding-right: 15px;
+}
+div.card{
+	width: 50%;
+	overflow: hidden;
+	
+	float:  left;
+	
+}
+div.img1 {
+	overflow: hidden;
+	width: 100%;
+}
+div.img1 img{
+	width: 100%;
+	height: 300px;
+	display: block;
+	transition: 3s;
+	opacity: 0.8;
+}
+div.card div.text3{
+	width: 100%;
+	padding: 10px;
+	background: #094059;
+}
+div.text3 .textto{
+	color: white;
+	font-size: 20px;
+	padding: 5px 0 0 20px;
+}
+div.text3 .textnho{
+	color: white;
+	font-weight: 300;
+	font-size: 14px;
+	padding: 10px 0 0 20px;
+}
+div.text3 a{
+	display: inline-block;
+	color: white;
+	font-size: 11px;
+	text-decoration: none;
+	margin-left:20px;
+	margin-top: 20px;
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+	
+}
+div.card div.text32 {
+	background-color: lightblue;
+}
+div.card div.text33 {
+	background-color: grey;
+}
+div.card div.text34 {
+	background-color: pink;
+}
+div.card div.text35 {
+	background-color: #474747;
+}
+div.card div.text36 {
+	background-color: #082e56;
+}
+.clearfix{
+	clear: both;
+}
+div.contact{
+	width: 100%;
+}
+div.frtable{
+	width: 45%;
+	float: left;
+	margin-top: 70px;
+	border-right: 1px solid grey;
+	
+}
+div.frtable div.frtable1 input,textarea{
+	display: block;
+	
+}
+div.title1 h3{
+	color: grey;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	
+}
+div.frtable1{
+	width: 80%;
+	position: relative;
+	overflow: hidden;
+	
+	
+}
+div.frtable1 input.text{
+	width: 100%;
+	height: 30px;
+	padding: 10px;
+}
+div.frtable1 textarea{
+	width: 100%;
+	height: 70px;
+	margin-bottom: 40px;
+	padding: 10px;
+}
+div.frtable1 #sub {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color:#c13838; 
+	border: none;
+	color: white;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+div.icon{
+	width: 55%;
+	float: left;
+}
+div.icon1{
+	width: 100%;
+	margin-top: 70px;
+	padding-left: 15%;
+	padding-bottom: 40px;
+	
+}
+div.icon1 i{
+	width: 25%;
+	display: inline-block;
+	float: left;
+	padding-right: 10%;
+	font-size: 35px;
+	color: grey;
+}
+div.icon1 i:hover{
+	color: pink;
+}
+div.icon1 .chu{
+	float: left;
+	display: block;
+	width: 75%;
+}
+div.chu .chuto{
+	color: grey;
+	font-size: 18px;
+	margin-top: -14px;
+}
+div.chu .chunho{
+	color: grey;
+	font-size: 12px;
+	margin-top: 14px;
+}
+div.footer{
+	margin-top: 120px;
+	text-align: center;
+}
+div.footer i{
+	border-right: 1px solid grey;
+	padding:0px 15px;
+	color: grey;
+	font-size: 18px;
+	margin-bottom: 30px;
+	
+}
+div.icon2 a:nth-child(3) i{
+	border-right: none;
+}
+div.textft p{
+	font-size: 12px;
+	color: grey;
+	padding-bottom: 30px;
+}
+div.icon2 i:hover{
+	color: lightblue;
+	
+}
+div.icon2 i.active{
+	color: lightblue !important;
+}
+div.card:hover{
+	margin-top: 25px;
+}
+div.card:hover img{
+	transform: scale(1.01);
+	opacity: 1;
+	
+}
+
