@@ -97,7 +97,7 @@ div.slide .text a{
 	transition: 4s ease;
 }
 div.slide .text a:hover{
-	font-size: 20px;
+	font-size: 19px;
 	color: grey;
 	background-color: pink;
 }
