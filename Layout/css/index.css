@@ -141,7 +141,7 @@ div.tieude h2{
 	text-decoration: none;
 }
 li.li1 a.active1{
-	color: #d18080;
+	color: #de7070;
 }
 li.active1{
 	border-bottom: 2px solid #de7070;
@@ -150,11 +150,11 @@ li.li1:hover{
 	border-bottom: 2px solid #de7070;
 }
 li.li1:hover a{
-	color: #d18080;
+	color: #de7070;
 	}
 
 li.li1:visited{
-	border-bottom:2px solid #d18080;
+	border-bottom:2px solid #de7070;
 }
 .main3{
 	width: 100%;
