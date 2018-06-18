@@ -63,16 +63,17 @@ div.menu2{
 	width: 100%;
 	height: 600px;
 }
-div.slide1{
+div.slide{
 	position: relative;
 }
 div.slide .text{
 	text-align: center;
 	width: 50%;
 	position: absolute;
-	top: 30%;
+	top: 50%;
 	left: 50%;
-	margin-left: -15%;
+	/* margin-left: -15%; */
+	transform: translate(-50%,-50%);
 }
 div.slide .text .text1{
 	color: white;
@@ -111,12 +112,12 @@ div.slide .text a:hover{
 	overflow: hidden;
 }
 div.tieude h2{
-	color: grey;
+	color: #5f5454;
 	font-size: 30px;
 	margin-top: 60px;
 	font-weight: 400;
 	display: inline-block;
-	border-bottom: 2px solid #d18080;
+	border-bottom: 2px solid #de7070;
 	padding-bottom: 20px;
 }
 .menu_item1{
@@ -135,7 +136,7 @@ div.tieude h2{
 	
 }
  li.li1 a{
-	color: grey;
+	color: #5f5151;
 	font-size: 18px;
 	text-decoration: none;
 }
@@ -143,11 +144,10 @@ li.li1 a.active1{
 	color: #d18080;
 }
 li.active1{
-	border-bottom:2px solid #d18080;
+	border-bottom: 2px solid #de7070;
 }
 li.li1:hover{
-	border-bottom:2px solid #d18080;
-	
+	border-bottom: 2px solid #de7070;
 }
 li.li1:hover a{
 	color: #d18080;
@@ -211,25 +211,24 @@ div.card div.text3{
 }
 div.text3 .textto{
 	color: white;
-	font-size: 20px;
+	font-size: 24px;
 	padding: 5px 0 0 20px;
 }
 div.text3 .textnho{
 	color: white;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 18px;
 	padding: 10px 0 0 20px;
 }
 div.text3 a{
 	display: inline-block;
 	color: white;
-	font-size: 11px;
+	font-size: 14px;
 	text-decoration: none;
 	margin-left:20px;
 	margin-top: 20px;
 	border-bottom: 1px solid white;
 	padding-bottom: 5px;
-	
 }
 div.card div.text32 {
 	background-color: lightblue;
