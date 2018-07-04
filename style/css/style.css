@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/stylist-home-headerbg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.imag img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 10%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    width: 35%;
+    position: absolute;
+    top: 32px;
+    right: 0px;
+    z-index: 1;
+}
+
+.menu_item {
+    width: 100%;
+}
+
+.menu .menu_item li {
+    float: left;
+    width: 20%;
+    /* display: inline-block; */
+    padding: 25px;
+    list-style-type: none;
+}
+
+.menu .menu_item li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.menu .menu_item li a:hover {
+    color: grey;
+}
+
+.banner {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+div.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.main1 {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    z-index: 1;
+}
+
+.number {
+    font-size: 28px;
+    padding: 40px 0;
+    font-weight: 900;
+}
+
+.title {
+    width: 100%;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.text {
+    width: 100%;
+}
+
+.text1 {
+    width: 50%;
+    float: left;
+    padding: 30px;
+    text-align: justify;
+    font-size: 16px;
+    color: grey;
+}
+
+.title p {
+    font-weight: 300;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.view a {
+    margin: 40px 0;
+    display: inline-block;
+    border-bottom: 2px solid grey;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 0;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.view:hover a {
+    color: grey;
+}
+
+div.main2 {
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/stylist-home-man-02.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.text_main2 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+div.text_main2 p.number2 {
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    padding: 40px 0 10px 0;
+    text-align: center;
+}
+
+.text_main2 h3 {
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.text_main2 p {
+    width: 80%;
+    font-size: 16px;
+    color: grey;
+    margin: 40px auto;
+    text-align: justify;
+}
+
+.see a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+
+.see a:hover {
+    color: grey;
+}
+
+.card2 {
+    width: 100%;
+}
+
+.card2 .card2_1 {
+    width: 33.3333333%;
+    float: left;
+    overflow: hidden;
+}
+
+div.card2_1 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.card2_1:hover img {
+    transform: scale(1.05);
+    opacity: 0.95;
+}
+
+.contact {
+    width: 100%;
+    text-align: center;
+}
+
+.contact1 {
+    padding: 100px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.contact_a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-bottom: 2px solid grey;
+}
+
+.main3 {
+    width: 100%;
+    background-image: url("../images/stylist-home-camerabg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    /* background-position-y: 413px; */
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.main3_1 {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.main3_1 .number3 {
+    font-size: 28px;
+    padding: 0 0 30px 0;
+}
+
+.main3_1 .title3 {
+    width: 100%;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.icon3 {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.icon3 img {
+    width: 20%;
+    float: left;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.icon3 .text_icon {
+    width: 80%;
+    float: left;
+    display: inline-block;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#icon_3 {
+    margin-top: 80px;
+}
+
+.main3_1 .see3 {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 0;
+    border-bottom: 2px solid grey;
+    margin-top: 50px;
+}
+
+.shose {
+    width: 30%;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+}
+
+.shose img {
+    width: 100%;
+}
+
+.main4 {
+    width: 100%;
+    background-image: url("http://betheme.muffingroupsc.netdna-cdn.com/be/stylist/wp-content/uploads/2017/12/stylist-home-blog-bg-1.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    position: relative;
+    /* background-position-y: 413px; */
+    background-repeat: no-repeat;
+}
+
+.text4 {
+    text-align: center;
+}
+
+.main4 .text4 .number4 {
+    font-size: 20px;
+    color: white;
+    padding: 100px 0 40px 0;
+}
+
+.title4 {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 80px;
+}
+
+.main4_conten {
+    width: 80%;
+    margin: auto;
+}
+
+.conten3 {
+    width: 65%;
+    float: left;
+}
+
+.conten1 {
+    position: relative;
+}
+
+.conten1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.mark {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, white, black);
+    background: -moz-linear-gradient(top, white, black);
+    background: -webkit-linear-gradient(top, #ffffff00 50%, #000000fa 100%);
+    background: -o-linear-gradient(top, white, black);
+    z-index: 1;
+}
+
+.textconten {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    padding-left: 20px;
+    transition: 0.4s;
+}
+
+.textconten i,
+span {
+    color: white;
+    padding: 10px 3px;
+}
+
+.textconten p {
+    color: white;
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.line {
+    height: 2px;
+    width: 0;
+    background: white;
+    margin: 0 0 20px 0;
+    transition: 0.5s;
+}
+
+.conten1:hover .textconten {
+    transform: translateY(-15px);
+}
+
+.conten1:hover .line {
+    width: 20%;
+}
+
+.conten2 {
+    width: 35%;
+    float: left;
+}
+
+.conten2 .conten1:nth-child(1) {
+    height: 299px;
+    padding: 0 0 10px 10px;
+}
+
+.conten2 .conten1:nth-child(2) {
+    padding: 0 0 0 10px;
+    height: 299px;
+}
+
+div.text_footer {
+    width: 60%;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+div.text_footer p {
+    padding: 30px 0;
+}
+
+.view_more {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+    border-bottom: 2px solid grey;
+    margin-bottom: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+.footer_top {
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+div.stylef {
+    width: 30%;
+    float: left;
+}
+
+.iconf {
+    width: 20%;
+    float: left;
+}
+
+.formf {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.footer_top div.stylef h3 {
+    color: white;
+    font-size: 40px;
+    padding: 0 0 20px 0;
+}
+
+.footer_top div.stylef p {
+    color: grey;
+    text-align: justify;
+    width: 100%;
+}
+
+.iconf ul li {
+    list-style-type: none;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.iconf ul li a {
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.formf h3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.formf input {
+    width: 60%;
+    margin: 5px auto;
+    padding: 10px;
+    /* background-color: grey; */
+    /* color: white; */
+    border: none;
+}
+
+.footer_bottom {
+    width: 100%;
+    background-color: black;
+    border-top: 1px grey solid;
+    padding: 20px;
+}
+
+.footer_bottom p {
+    text-align: center;
+    color: grey;
+}
