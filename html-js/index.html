@@ -258,11 +258,11 @@
     </main>
 </body>
 <script>
-        function layngay(){
+        function bai1(){
             var d=new Date();
             console.log('Today is:'+d.getDay()+' '+'| current time is'+' '+d.getHours()+":"+d.getMinutes()+":"+d.getSeconds());
         }
-        function tinhngay(y,m,d){
+        function bai2(y,m,d){
             if(m<1 || m>12){
                 console.log('bạn phải nhập dúng tháng!');
                 return false;
@@ -289,25 +289,39 @@
                 console.log('còn'+' '+kq1+' '+'nữa là đến ngày bạn trọn!');
             }
         }
-		function tinh(a,b){
-			var tich=a*b;
+		function bai3(a,b){
+        if(Number.isInteger(a)==false || Number.isInteger(b)==false ){
+            console.log('nhập số hộ em với!');
+        }else{
+            var tich=a*b;
 			var thuong=a/b;
 			console.log('tích của 2 số là:'+tich);
 			console.log('thương của 2 số là:'+thuong);
+        }
+			
 		}
-		function tong(c,d){
-			if(c==d){
+		function bai4(c,d){
+            if(Number.isInteger(c)==false || Number.isInteger(d)==false ){
+            console.log('nhập số hộ em với!');
+            }else{
+            if(c==d){
 			 var tong=(c+d)*3;
 			}else{
 			 var tong=c+d;
 			}
-			console.log(tong);
+			console.log(tong);}
+			
 		}
-		function doi(k){
-			var f=k*1.8000 + 32.00;
+		function bai5(k){
+            if(Number.isInteger(k)==false ){
+                console.log('nhập số hộ em với!');
+            }else{
+                var f=k*1.8000 + 32.00;
 			console.log(k+ "độ C = "+f+ "độ F");
+            }
+			
 		}
-        function daonguocso(str){
+        function bai6(str){
             var x=String(str);
             var str1='';
             for(var i=x.length-1;i>=0;i--){
