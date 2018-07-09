@@ -330,5 +330,26 @@
             var str3=parseInt(str1);
             console.log(str3);
         }
+        function bai7(){
+            var d=new Date();
+            var mua=d.getMonth();
+            switch(mua) {
+			case 1,2,3:{ mua='Mùa xuân!';
+				
+				break;}
+			case 4,5,6:{mua= 'Mùa hạ!';
+				
+				break;}
+			case 7,8,9:{mua= 'Mùa thu!';
+				
+				break;}
+			default:{ mua='Mùa thu!';
+				break;}
+			
+		}
+        return ('Today is:'+d.getDay()+' '+'| current time is'+' '+d.getHours()+":"+d.getMinutes()+":"+d.getSeconds()+"là"+mua);
+  
+        
+ }
 	</script>
 </html>
