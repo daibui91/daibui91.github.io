@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="text1">
+        <p style="font-size: 16px" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur nulla nesciunt rerum illo, repellendus id neque recusandae ab voluptate, tenetur eius explicabo numquam sunt exercitationem rem laboriosam, veniam impedit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero pariatur nulla nesciunt rerum illo, repellendus id neque recusandae ab voluptate
+        </p>
+    </div>
+    <div id="text2">
+        <p style="font-size: 16px">
+        Cái Southgate học được là: Một, tạo ra các khoảng trống trong không gian vô cùng chật hẹp (cụ thể là khoảng ½ khu vực vòng cấm với sự có mặt của khoảng 12-16 cầu thủ cả tấn công và phòng ngự); Hai, loại bỏ sự đeo bám hay nói khác đi là sử dụng nhân tố thứ ba để đánh bại một cuộc tranh chấp tay đôi.
+        </p>
+    </div>
+    <div id="text3">
+        <p style="font-size: 16px">
+        Trong trận đấu với Brazil, tiền vệ Eden Hazard là người được chấm điểm cao thứ 2 (8,3 điểm – Whoscored), chỉ sau thủ thành Courtois. Tiền vệ của Chelsea thực hiện thành công hầu hết các đường chuyền, thậm chí nhiều hơn số đường chuyền cả đội tuyển Brazil cộng lại, một ngày thi đấu chói sáng của Eden Hazard.
+        </p>
+    </div>
+    <script >
+        function changeFontSize(p){
+            var x = document.querySelectorAll("div p");
+            console.log(x);
+            console.log(p);
+            for(let i=0;i<=x.length-1;i++){
+                x[i].style.fontSize=p+"px";
+            }
+
+        }
+        function increaseFontSize(){
+            var x = document.querySelectorAll("div p");
+            for(let i=0;i<=x.length-1;i++){
+                var q=x[i].style.fontSize;
+                q=parseInt(q);
+                console.log(q);
+                if(q>=30){
+                   x[i].style.fontSize=30+'px';
+                }
+                else {
+                  x[i].style.fontSize=(q+1)+'px';
+                }
+            }  
+              
+            
+
+        }
+        function decreaseFontSize(){
+            var x = document.querySelectorAll("div p");
+            for(let i=0;i<=x.length-1;i++){
+                var q=x[i].style.fontSize;
+                q=parseInt(q);
+                console.log(q);
+                if(q<=10){
+                   x[i].style.fontSize=10+'px';
+                }
+                else {
+                  x[i].style.fontSize=(q-1)+'px';
+                }
+            }  
+              
+            
+
+        }
+        function changeColor(){
+            document.getElementById('text1').style.backgroundColor='blue';
+            document.getElementById('text2').style.backgroundColor='red';
+            document.getElementById('text3').style.backgroundColor='yellow';
+        }
+        function changeBgColor(color){
+            var c=color;
+           var x= document.querySelector('body').style.backgroundColor=c;  
+
+        }
+        function copyContent(){
+            var a=document.getElementById('text1').innerHTML;
+            document.getElementById('text2').innerHTML= a ;
+        }
+
+    </script>
+</body>
+</html>
