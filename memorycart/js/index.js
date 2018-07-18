@@ -1,7 +1,7 @@
 var cards=['f1','f2','f3','f4','f5','f6','f7','f8'];
 var current=null;
 var count='0';
-var time=50;
+var time=31;
 function shuffle(array){
     var currentIndex =array.length , temporaryValue, randomIndex;
     while(currentIndex != 0){
