@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    background: url(../img/logo.jpg) center center;
+}
+.content{
+    max-width: 100%;
+    height: 100%;
+    margin:auto;
+}
+.grid{
+   
+    width: 12.5%;
+    padding-top: 30px;
+   float: left;
+}
+.card{
+   
+    height: 100%;
+    width: 100%;
+    padding:0 10px;
+    position: relative;
+}
+.font{
+    width: 100%;
+    height: 100%;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.card .back{
+    transform: rotateY(180deg);
+   
+}
+.fliped .font{
+    transform: rotateY(180deg);
+}
+.fliped .back{
+    transform: rotateY(0deg);
+}
+.add_event{
+    pointer-events: none;
+}
+.timeout{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    background: transparent;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+/* .card:hover .back{
+    transform: rotateY(180deg);
+} */
+/* .card .font{
+    transform: rotateY(180deg);
+} */
+
+/* .card:hover .font{
+    transform: rotateY(180deg);
+   
+} */
+.card .font, .card .back{
+    transition:all 0.4s;
+    backface-visibility: hidden;
+   
+}
+.clearfix{
+    clear: both;
+}
+/* @keyframes chay {
+    from  {opacity: 0;visibility: hidden;}
+    to {opacity: 1;visibility: visible;}
+    } */
+#win{
+    width: 300px;
+    height: 200px;
+    background: url(../img/stock-vector-game-victory-stars-cartoon-assets-for-the-game-design-639004840.jpg) center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:0 15px 30px 0 #ffffff7a,
+    0 5px 15px 0 white;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    top:50%;
+    left: 50%;
+    animation: chay 0.5s ease;
+    visibility: hidden;
+
+}
+#over{
+    width: 300px;
+    height: 200px;
+    background: url(../img/game-over-icon-ui-game-illustration-cartoon-design-user-interface-46996494.jpg) center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:0 15px 30px 0 #ffffff7a,
+    0 5px 15px 0 white;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+    top:50%;
+    left: 50%;
+    animation: chay 0.5s ease;
+    visibility: hidden;
+
+}
+a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: pink;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+}

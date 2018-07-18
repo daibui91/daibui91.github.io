@@ -34,4 +34,7 @@
     .card_contact{
         margin-bottom: 30px;
     }
+    ..navbar-expand-lg .navbar-nav .nav-link{
+        color: white;
+    }
 }
