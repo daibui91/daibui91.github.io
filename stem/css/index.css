@@ -131,8 +131,13 @@ header{
 .img_main1{
     width: 100%;
     height: 100%;
+    position: relative;
     overflow: hidden;
     border-radius: 2px;
+}
+.img_main1:hover .text_main10{
+    height: 100%;
+    visibility: visible;
 }
 .img_main1 img{
     width: 100%;
@@ -163,8 +168,9 @@ header{
 .col-md-3{
     margin-bottom: 30px;
 }
-.main_3{
-
+.card1{
+    
+    overflow: hidden;
 }
 .section_2{
     background: url(../img/bgwave3.png) center center;
@@ -229,6 +235,23 @@ header{
     background: #5aa1cf;
     text-align: center;
 }
+.text_main10{
+    width: 100%;
+    height: 0;
+    background: #8080802e;
+    position: absolute;
+    transition: 0.4s;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_main10 p{
+    color: white;
+    font-size: 20px;
+}
 .foot p{
     padding: 15px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -266,6 +289,7 @@ i.fa.fa-angle-double-up {
     }
     .card1{
         height: 300px;
+        
     }
     .col-md-9{
         padding-bottom: 30px;

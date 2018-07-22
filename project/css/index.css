@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/* header */
+.menu_top{
+    width: 100%;
+}
+.navbar-dark .navbar-nav .nav-link{
+   color: black;
+}
+/* het header */
