@@ -2,6 +2,9 @@
     .icon_bar{
         visibility: hidden;
     }
+    .menu_mobi{
+        display: none;
+    }
 }
 @media (max-width: 992px){ 
     .icon_bar i{
@@ -16,6 +19,9 @@
     .menu_top1{
         z-index: 7;
     }
+    div.text_shop {
+        padding: 10px 0 0 10px;
+    }
 }
 @media (max-width:768px){
     .col-md-6.conten_book {
@@ -25,16 +31,50 @@
     .new_menu{
         margin-bottom: 30px;
     }
+    .card_contact{
+        margin-bottom: 30px;
+    }
+    .col-md-6.conten_book{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    div.conten_book {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .text_new3{
+        padding-bottom: 50px;
+    }
+   
+}
+@media (max-width:640px){
+    
     .text_new2{
         margin-bottom: 30px;
     }
     .img_new2{
         margin-bottom: 30px;
     }
-    .card_contact{
-        margin-bottom: 30px;
+    .icon_bar {
+        position: fixed;
+        top: 28px;
+        right: 20px;
     }
-    ..navbar-expand-lg .navbar-nav .nav-link{
-        color: white;
+    
+    div.conten_book {
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
+
+    div.owl-theme .owl-nav {
+    margin-top: -60px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+div.line_menu1 {
+    padding: 30px 0 50px 0;
+}
+
+
+   
 }

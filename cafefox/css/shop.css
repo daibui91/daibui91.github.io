@@ -8,9 +8,61 @@ body{
     position: relative;
 }
 /* header */
+.seach1{
+    position: relative;
+}
+.sea_menu
+{
+    position: relative;
+}
+.searh{
+    position: absolute;
+    top:98%;
+    right: 0;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4;
+}
+.searh_mobi{
+    position: absolute;
+    top:70px;
+    right: 0;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4;
+}
+.timlen{
+    opacity: 1;
+    visibility: visible;
+}
+.trai{
+    width: 70%;
+    padding: 5px;
+    outline: none;
+    border:1px solid #c59d5f;
+    border-radius: 2px 0 0 2px ;
+    
+}
+.phai{
+    width: 30%;
+    padding: 5px;
+    background: #c59d5f;
+    color: white;
+    outline: none;
+    border:1px solid #c59d5f;
+    border-radius: 0  2px 2px 0;
+    cursor: pointer;
+}
 @-webkit-keyframes logovang {
 	from { transform:scale(1.5) rotate(0); opacity:0;}
 	to { transform:scale(1) rotate(360); opacity:1;}
+
+}
+@-webkit-keyframes dixuong {
+	from { top:-100px; }
+	to { top:0px; }
 
 }
 .navbar-brand img.vang {
@@ -35,19 +87,22 @@ body{
     background: white!important;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     position: fixed;
-    top: 0;
+    animation: dixuong 0.6s ease;
     left: 0;
     z-index: 7;
-    transition: 0.4s;
+  
 }
 .menu_top2 .navbar-nav{
     margin-right: 0;
 }
 .menu_top2 .nav-link.white{
-    color: grey;
+    color: white;
     text-transform: uppercase;
     font-size: 14px;
     margin: 0 10px;
+}
+.menu_top1.nentrang .menu_top2 .nav-link.white{
+    color: grey; 
 }
 li.color:hover a.white{
     color: #c59d5f;
@@ -89,27 +144,39 @@ a.a_banner:hover{
 }
 /* menu di dong */
 .menu_mobi{
-    width: 200px;
+    width: 300px;
    position: fixed;
-   top: 20px;
-   right: -200px;
+   top: 0px;
+   right: -300px;
+   height: 100%;
    text-align: center;
-   background:#8080808a;
+   background:#808080fa;
    transition: 0.4s;
    z-index: 9;
+   padding-top: 30px;
 }
 .mobi span{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 400;
-    margin-right: 40px;
+    
 }
 .mobi i{
     color: white;
     font-size: 30px;
-    text-align: right;
+    text-align: left;
     display: inline-block;
+   
+}
+.mobi i.fa-times{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top:10px;
 }
 .mobi li{
     list-style: none;
@@ -239,6 +306,21 @@ div.shop_menu{
 /* hết menu */
 
 /* footer */
+.send{
+    position: relative;
+}
+div.foot_item input.send1{
+    background: url(../images/index/send4.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    border-bottom: none;
+    position: absolute;
+    top:20px;
+   cursor: pointer;
+    right: 0px;
+    width: 30px;
+    height:30px;
+}
 .clearfix{
     clear: both;
 }
@@ -324,4 +406,8 @@ p.foot_bot{
 }
 .footer{
     padding: 50px 0;
+}
+.foot_b{
+    border-top:1px solid grey;
+    background: #3a3a3a;
 }

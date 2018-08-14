@@ -16,6 +16,21 @@ $(document).ready(function () {
                 
                               
              });
+             
+            $('#tim').click(function (e) { 
+                e.preventDefault();
+                $('.searh').toggleClass('timlen');
+               
+            
+                return false;
+            });
+            $('#hien_mobi').click(function (e) { 
+                e.preventDefault();
+                $('.searh_mobi').toggleClass('timlen');
+                
+                return false;
+            });
+        
     
         $(window).scroll(function(){ 
             if ($(this).scrollTop() > 700) { 
@@ -38,15 +53,15 @@ $(document).ready(function () {
             $('.icon_bar').removeClass('out');
 
         });
+        
         // $(".nav-link").click(function (e) { 
         //     $(this).addClass("active");
         // });
         $('#box-sp1').owlCarousel({
             loop:true,
-            
             nav:true,
             autoplay:true,
-            autoplayTimeout:5000,
+            autoplayTimeout:3000,
             autoplaySpeed:1000,
             responsive:{
                 0:{
@@ -60,5 +75,5 @@ $(document).ready(function () {
                 }
             }
         });
-  
+       
 });

@@ -429,3 +429,51 @@ i.hien1{
     margin-right: 15px;
    
 }
+@media (max-width: 992px){
+    .menu_right{
+        display: none;
+    }
+    .manavbar-togglern1{
+        padding-left: 30px;
+        border: none;
+    }
+    a.navbar-brand{
+        display: inline-block;
+        width: 20%;
+        margin: auto;
+    }
+    .fa-times{
+        margin-left: 10%;
+    }
+ }
+ @media (max-width: 768px){
+    .out{
+        display: none;
+    }
+    .search_icon {
+        float: none;
+        width: 100%;
+    }
+    .fa-times{
+        margin-left: 30%;
+    }
+    .but_icon a{
+        transform: translateY(-15px);
+    }
+ }
+ @media (max-width: 576px){
+   
+    
+    .fa-times{
+        margin-left:0px;
+    }
+    .alert {
+        width: 400px;
+        border: 1px solid #d6d6d6;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        transition: 1s;
+        background: white;
+    }
+ }

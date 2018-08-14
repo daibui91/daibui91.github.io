@@ -1,0 +1,154 @@
+
+/* @media (max-width: 1130px){ 
+    .navbar-light .navbar-nav .nav-link{
+        padding: 30px 10px;
+    }
+} */
+@media (max-width: 992px){ 
+    
+    .slide_l{
+       float: none;
+       width: 100%;
+       margin-bottom: 30px;
+    }
+    .text_slide{
+        float: none;
+        width: 100%;
+        
+     }
+     .slide{
+         height: 100%;
+     }
+     .map{
+        float: none;
+        width: 100%;
+     }
+     .text_main8{
+        float: none;
+        width: 100%;
+      
+     }
+     .form-control{
+         width: 60%;
+     }
+     .sub{
+         width: 20%;
+     }
+     .text_head h1{
+         font-size: 60px;
+     }
+     .title_main3 h2{
+         font-size: 25px;
+     }
+     .main3_1 .a_bottom{
+         font-size: 25px;
+     }
+     .tong_r{
+         padding-left: 15px;
+     }
+     .icon_product textarea{
+         width: 100%;
+     }
+     .form-control {
+        width: 100%;
+    }
+}
+@media (max-width: 1366px){ 
+    .menu_top.collapse{
+        display: none!important;
+     }
+     .menu_end{
+         display: none;
+     }
+     .logo{
+        width: 25%;
+        padding-left: 20px;
+    }
+    .menu_top1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+  span.icon_bar13{
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+    
+}
+@media (min-width:1366px){
+    .menu_bar{
+        display: none;
+    }
+    body.in2{
+        left: 0;
+    }
+}
+@media (max-width:768px){
+    .col-md-4 {
+    
+        margin-bottom: 30px;
+    }
+    .key h2{
+        font-size: 30px;
+    }
+    .blog_l{
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    form div.form_mo:nth-child(1){
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+    form div.form_mo:nth-child(3){
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+    form div.form_mo:nth-child(2){
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    form div.form_mo:nth-child(4){
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    
+}
+@media (max-width:450px){
+    *{}
+    .text_head h1 {
+        font-size: 40px;
+    }
+    .form-control {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .sub{
+        width: 40%;
+    }
+    .form-control {
+        width: 100%;
+    }
+    .option{
+        
+       
+        bottom:-88px;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    .coupon-all input{
+       width:100% ;
+    }
+    .coupon2,.coupon{
+        float: none;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+}

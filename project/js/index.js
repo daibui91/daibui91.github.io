@@ -1,56 +1,72 @@
 $(document).ready(function () {
+    new WOW().init();
     $(window).scroll(function(event) { 
                   if($('html,body').scrollTop() > 150) {  // so sanh vi tri hien tai voi welcome
-                      $('.top').addClass('stick'); // doi logo
-                     
+                      $('.menu_top1').addClass('stick'); // doi logo
+                      $('.logo img').attr('src', 'images/lo1.png');
+                      $('.nav-link').addClass('color_menu');
+                      $('.text_menu_end').addClass('color_text');
+                      $('.icon_bar13').addClass('color_icon');
                   }
-                  else   // neu o tren welcome
+                  else   
                   {
-                      $('.top').removeClass('stick');  // ve nhu cu 
-                      // ve nhu cu 
+                      $('.menu_top1').removeClass('stick');  // ve nhu cu 
+                      $('.logo img').attr('src', 'images/logo-white.png');
+                      $('.nav-link').removeClass('color_menu');
+                      $('.text_menu_end').removeClass('color_text');
+                      $('.icon_bar13').removeClass('color_icon');
                   }
                 
                               
              });
-    
+             $('#backtop').fadeOut();
         $(window).scroll(function(){ 
-            if ($(this).scrollTop() > 700) { 
+            if ($(this).scrollTop() > 800) {
                 $('#backtop').fadeIn(); 
             } else { 
                 $('#backtop').fadeOut(); 
             } 
         }); 
         $('#backtop').click(function(){ 
-            $("html, body").animate({ scrollTop: 0 }, 800); 
-            return false; 
+            $("html, body").animate({ scrollTop: 0 }, 800);  
         }); 
-        $('.menu_pc .menu_item:nth-child(1) a').click(function (e) { 
-            e.preventDefault();
-            $("html, body").animate({ scrollTop:$('.text_main1').offset().top-180}, 800);
+        
+       var a=$('.navbar-nav .nav-item .nav-link');
+       var c=$('.truot');
+       for(let i=0 ; i<=a.length-1 ; i++){
+           $(a[i]).click(function () { 
+               $("html, body").animate({ scrollTop:$(c[i]).offset().top-85}, 800);
+               return false;
+           });
+       }
+       var b=$('.mobi');
+       for(let i=0 ; i<=b.length-1 ; i++){
+        $(b[i]).click(function () { 
+            $("html, body").animate({ scrollTop:$(c[i]).offset().top-85}, 800);
+            return false;
         });
-        $('.menu_pc .menu_item:nth-child(2) a').click(function (e) { 
-            e.preventDefault();
-            $("html, body").animate({ scrollTop:$('.main_3').offset().top-100}, 800);
-        });
-        $('.menu_pc .menu_item:nth-child(3) a').click(function (e) { 
-            e.preventDefault();
-            $("html, body").animate({ scrollTop:$('.diengia').offset().top-100}, 800);
-        });
-        $('.menu_pc .menu_item:nth-child(4) a').click(function (e) { 
-            e.preventDefault();
-            $("html, body").animate({ scrollTop:$('.login').offset().top}, 800);
-        });
-        $('.fa.fa-bars').click(function(){
+        }
+    
+        $('span.icon_bar13').click(function(){
            
-            $('.mobile').addClass('in');
-            //$('.icon_bar').addClass('out');
+            $('.menu_bar').toggleClass('in');
+            $('span.icon_bar13 i').toggleClass('fa-times');
+            $('body').toggleClass('in2');
+            $('span.icon_bar13 i').toggleClass('fa-bars');
 
         });
-        $('.fa.fa-times').click(function(){
-            $('.mobile').removeClass('in');
-            //$('.icon_bar').removeClass('out');
-
+        $('.check2').click(function (e) { 
+            e.preventDefault();
+            $('.an').toggleClass('hien');
+           
         });
-console.log($('.text_main1').offset().top);
-  
+        $(".myBtn").click(function(){
+            $("#myModal").modal();
+           return false;
+        });
+        $("#zoom_01").elevateZoom({ gallery: 'gal1', cursor: 'pointer', galleryActiveClass: 'active', imageCrossfade: false, loadingIcon: '' });
+
+        $("#zoom_01").bind("click", function (e) { var ez = $('#zoom_01').data('elevateZoom'); $.fancybox    (ez.getGalleryList()); return false; });
+        
+       
 });
