@@ -394,6 +394,9 @@ a.add:hover{
     padding-left: 30px;
     font-size: 30px;
 }
+.gallery{
+    width: 100%;
+}
 #gal1 {
     padding-top: 30px;
 }

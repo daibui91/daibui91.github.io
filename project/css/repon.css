@@ -117,7 +117,14 @@
         width: 100%;
         padding-left: 0;
     }
-    
+    .coupon-all input{
+        width:100% ;
+     }
+     .coupon2,.coupon{
+         float: none;
+         margin-bottom: 30px;
+         text-align: center;
+     }
 }
 @media (max-width:450px){
     *{}
@@ -142,13 +149,6 @@
         transform: translateX(-50%);
     
     }
-    .coupon-all input{
-       width:100% ;
-    }
-    .coupon2,.coupon{
-        float: none;
-        margin-bottom: 30px;
-        text-align: center;
-    }
+   
     
 }
