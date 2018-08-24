@@ -267,8 +267,13 @@
         width: 23.8%;
     }
 }
-@media (max-width:370px){
-   
+@media (max-width:380px){
+    .col-12.img_sec3{
+        margin-top: 100px;
+    }
+    .col-12.wp-list-boxsp{
+        height: 590px;
+    }
     div.carousel1 h2{
         font-size: 16px;
     }
